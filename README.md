@@ -16,10 +16,10 @@ Follow this [website](https://blog.csdn.net/weixin_46632183/article/details/1205
 + First, create a folder named "data"
 + Second, revise the corresponding path in dataset/dataset_shapenet.py" and training/metro.py
 + Download these zips: [metro_files.zip](https://jbox.sjtu.edu.cn/l/41tOlR) and unzip in folder "data"
-+ P.S. My computer cannot afford the memory requirements to cache all data, so I only cache one third of the total datas.If you are willing to cache the whole data for our team, you can delete the folder cache and revise line 121 and line 123 in python file "dataset/dataset_shapenet.py". Just delete the part of "if count == 3" and run "测试用.ipynb", program will recache the entire dataset. 
++ P.S. My computer cannot afford the memory requirements to cache all data, so I only cache one third of the total datas.If you are willing to cache the whole data for our team, you can delete the folder cache and revise line 121 and line 123 in python file "dataset/dataset_shapenet.py". Just delete the part of "if count == 3" and run "For_Test.ipynb", program will recache the entire dataset. 
 
 ## run
-"测试用.ipynb" is a file to test code. You can change opt or model, start training and check loss info in the folder "log".
+"For_Test.ipynb" is a file to test code. You can change opt or model, start training and check loss info in the folder "log".
 
 If you want to add log information, use 
 
