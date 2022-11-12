@@ -10,12 +10,12 @@ For the CV course Final project
 + other missing modules you can use 'pip install xxx' to install
 
 ## install pymesh
-Follow this [website](https://blog.csdn.net/weixin_46632183/article/details/120553750) to install pymesh
+Follow this [website](https://blog.csdn.net/weixin_46632183/article/details/120553750) to install pymesh.
 
 ## download dataset
-+ First, create a folder named "data"
++ First, create a folder named "data".
 + Second, revise the corresponding path in dataset/dataset_shapenet.py" and training/metro.py
-+ Download these zips: [metro_files.zip](https://jbox.sjtu.edu.cn/l/41tOlR) and unzip in folder "data"
++ Download these zips: [ShapeNetV1Renderings.zip](https://jbox.sjtu.edu.cn/l/l1dfYe) [ShapeNetV1PointCloud.zip](https://jbox.sjtu.edu.cn/l/01AwwD) [metro_files.zip](https://jbox.sjtu.edu.cn/l/41tOlR) [cache.zip](https://jbox.sjtu.edu.cn/l/b1d0PR) and unzip in folder "data".
 + P.S. My computer cannot afford the memory requirements to cache all data, so I only cache one third of the total datas.If you are willing to cache the whole data for our team, you can delete the folder cache and revise line 121 and line 123 in python file "dataset/dataset_shapenet.py". Just delete the part of "if count == 3" and run "For_Test.ipynb", program will recache the entire dataset. 
 
 ## run
@@ -29,4 +29,4 @@ with open(self.log_name, "a") as log_file: # log_name is an attribute of class T
       log_file.write('%s\n' % message)
 ```
 
-If you want to save results, please save in the corresponding log path (check opt.log_path)
+If you want to save results, please save in the corresponding log path (check opt.log_path).
