@@ -75,4 +75,9 @@ If you want to save results, please save in the corresponding log path (check op
 - [ ] Object Detection Network  尽早实现一下
     - [ ]  Attention Sum 注意一下是怎么实现
 - [ ] 提出 IDAES
+- [ ] Mesh Generator Net 
+
+    - [ ] 除理大小不同的input image
+    - [ ] 不同dimension的图片 如何做encoding
+    - [ ] 
 
