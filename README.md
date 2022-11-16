@@ -58,9 +58,21 @@ If you want to save results, please save in the corresponding log path (check op
     self.__init__(self, opt)
     ```
 
-    
+- [ ] Pipeline
 
-- [ ] *Layout Estimation Net* 先放一下
+    - [ ] 梯度回传路径？
+    
+    - [ ] Loss 构成？
+        
+    - [ ] How to Make Mesh Output?
+        
+- [ ] *Layout Estimation Net* 
+
+    - [ ] 图形学相关知识？
+
+    - [ ] output features ?
+
+    - [ ] 
 
 - [ ] AtlasNet 边缘检测 、 边缘强化 **实现** （用 某种 net 实现）？ 能否用传统CV实现？
 
@@ -75,9 +87,9 @@ If you want to save results, please save in the corresponding log path (check op
 - [ ] Object Detection Network  尽早实现一下
     - [ ]  Attention Sum 注意一下是怎么实现
 - [ ] 提出 IDAES
-- [ ] Mesh Generator Net 
+- [ ] Mesh Generation Net 
 
     - [ ] 除理大小不同的input image
-    - [ ] 不同dimension的图片 如何做encoding
+    - [ ] 不同dimension的图片 如何用一个网络做encoding
     - [ ] 
 
